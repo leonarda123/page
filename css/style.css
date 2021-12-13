@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+header {
+    background: url('images/poster.jpg') no-repeat center center fixed;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.caption h1 {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+
+}
+
+.caption p {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.navbar {
+    font-weight: bolder;
+
+
+}
+
+.navbar li {
+    padding-right: 60px;
+    padding-left: 30px;
+}
+
+.btn {
+
+    background-color: yellow;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border: none;
+    color: rgb(241, 237, 237);
+    text-shadow: 5px rgb(182, 181, 181);
+    padding: 7px 96px;
+    text-align: center;
+    margin-left: 500px;
+
+
+}
+
+.navbar>a>.home {
+    text-decoration: underline 2px;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    z-index: 1;
+    color: white;
+    letter-spacing: 0.3rem;
+    text-shadow: .2rem rgb(207, 207, 207);
+
+}
+
+.container1 {
+    margin-left: 80px;
+
+}
+
+
+.container1 h3,
+h2 {
+    color: rgb(170, 170, 170);
+}
+
+.col-lg-12 hr {
+    border: 0.3px solid lightgrey
+}
+
+.col-sm-4 hr {
+    border: 5px solid lightblue;
+}
+
+.section2 {
+    background: url('/css/images/paralax.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+}
+
+.section2 h2 {
+    color: white;
+    font-weight: 400;
+}
+
+.section2 .white {
+    background-color: whitesmoke;
+}
+
+.section2 p {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.vl {
+    border-left: 1px solid lightgrey;
+    padding-bottom: 80px;
+
+}
